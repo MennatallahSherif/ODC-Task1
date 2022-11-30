@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+         <div class="container py-5">
+            <div class="mb-3">
+            <label for="userName">User Name</label>
+            <input type="text" id="userName" class="form-control">
+            </div>
+            <div class="mb-3">
+            <label for="userPhone">User Phone</label>
+            <input type="number" id="userPhone" class="form-control">
+            </div>
+            <div class="mb-3">
+            <label for="userStatue">User Statue</label>
+            <input type="text" id="userStatue" class="form-control">
+            </div>
+            <button class="btn btn-outline-info" id="myBtn" >Add</button>
+            
+         </div>
+
+         <div class="container">
+            <table class="table my-3 table-striped">
+                <thead>
+                    <th>Index</th>
+                    <th>User Name</th>
+                    <th>User Phone</th>
+                    <th>User Statue</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="tableBody">
+                   
+                </tbody>
+            </table>
+         </div>
+
+
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
